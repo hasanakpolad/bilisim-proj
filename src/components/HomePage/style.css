@@ -1,0 +1,30 @@
+/* .homeBox{
+ background-color: pink;
+ width: 33%;
+} */
+.itemList {
+ grid-template-columns: repeat(2, 1vh);
+ max-width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+ color: #333;
+}
+
+.gridList {
+ display: inline-grid;
+ vertical-align: bottom;
+ grid-template-columns: 350px 5rem 30rem;
+ grid-gap: 50px 50px;
+ background-color: #FDF6EC;
+ padding: 15px;
+ text-align: center;
+ align-items: center;
+ margin: 5px;
+ min-height: 25rem;
+ border-radius: 15px;
+}
+
+.innerGridList {
+ width: 100%;
+ border-radius: 15px;
+}
