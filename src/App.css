@@ -85,7 +85,7 @@ i {
 
 .position {
     align-items: flex-end;
-    justify-content: end;
+    justify-content: flex-end;
     display: flex;
 }
 .mainpos {

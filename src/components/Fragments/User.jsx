@@ -1,8 +1,8 @@
 import React from 'react'
 import CustomList from '../Customlist'
-import "./style.css"
+import './style.css'
 
-function Ticket({ item }) {
+function User({ item }) {
     return (
         <div>
             <CustomList item={item} />
@@ -10,4 +10,4 @@ function Ticket({ item }) {
     )
 }
 
-export default Ticket
+export default User

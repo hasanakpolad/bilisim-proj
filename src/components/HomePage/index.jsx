@@ -1,49 +1,41 @@
 import React from 'react'
-import './style.css'
+import { Link } from 'react-router-dom'
 import Education from '../Fragments/Education'
 import Ticket from '../Fragments/Ticket'
-import { Link } from 'react-router-dom'
+import Stopover from '../Fragments/Stopover'
+import Rent from '../Fragments/Rent'
+import User from '../Fragments/User'
+import './style.css'
 
 function HomePage() {
     const Edudata = [{
-        text: "textData1"
-    },
-    {
-        text: "textData2"
-    },
-    {
-        text: "textData3"
-    }, {
-        text: "textData4"
+        text: "Düştüysek kalkarız daha ölmedik ya!"
+    }]
+    const RentData = [{
+        text: "Kiralık eşyalar burada!"
     }]
     const Ticketdata = [{
-        text: "textData1"
-    },
-    {
-        text: "textData2"
-    },
-    {
-        text: "textData3"
-    }, {
-        text: "textData4"
+        text: "Bilet işlemleri artık daha kolay!"
     }]
     const Stepdata = [{
-        text: "Konaklama"
-    },
-    {
-        text: "[Kayak merkezi adı] Kayak Merkezimiz [Yıl]'ından itibaren hizmet" +
-            "vermektedir.Misafirlerimize sunmuş olduğu imkanlar ile en çok tercih" +
-            "edilen kayak merkezleri arasındadır." +
-            " Bünyesinde sahip olduğu [pist sayısı] adet pist ile misafirlerine hizmet" +
-            " vermektedir." +
-            "  Kayak keyfini daha fazla yaşamak isteyen misafirlerimiz için[otel" +
-            "  sayısı] adet otel ve pansiyon ile hizmeti verilmektedir." +
-            "  Sahip olduğu deneyimli kadrosu ile kayak öğrenmek isteyen misafirlerimiz" +
-            " rahatça kayak keyfini öğrenek sürecek.< br > " +
-            " Daha fazla bilgi için ilgili sayfalarda mevcuttur İyi Eğlenceler dileriz."
+        text: "Evden uzakta kalmak ancak bu kadar eğlenceli olabilir!"
+    }]
+    const UserData = [{
+        text: "Üye olup tüm bu imkanlardan faydalanabilirsin!"
     }]
     return (
         <div className='itemList'>
+            <Link className='link' to='/rent'>
+                <div className='gridList'>
+                    <div className='innerGridList'>
+                        <h1>Kiralama İşlemleri</h1>
+                        <br /><br /><br />
+                        <div>
+                            <Rent item={RentData} />
+                        </div>
+                    </div>
+                </div>
+            </Link>
             <Link className='link' to='/education'>
                 <div className='gridList'>
                     <div className='innerGridList'>
@@ -66,13 +58,24 @@ function HomePage() {
                     </div>
                 </div>
             </Link>
-            <Link className='link' to='/Ticket'>
+            <Link className='link' to='/stopover'>
                 <div className='gridList'>
                     <div className='innerGridList'>
                         <h1>Konaklama İşlemleri</h1>
                         <br /><br /><br />
                         <div>
-                            <Ticket item={Stepdata} />
+                            <Stopover item={Stepdata} />
+                        </div>
+                    </div>
+                </div>
+            </Link>
+            <Link className='link' to='/user'>
+                <div className='gridList'>
+                    <div className='innerGridList'>
+                        <h1>Kullanıcı İşlemleri</h1>
+                        <br /><br /><br />
+                        <div>
+                            <User item={UserData} />
                         </div>
                     </div>
                 </div>

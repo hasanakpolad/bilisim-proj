@@ -5,7 +5,7 @@ import './style.css'
 function Education({ item }) {
   return (
     <div>
-      <CustomList item={item}/>
+      <CustomList item={item} />
     </div>
   )
 }
