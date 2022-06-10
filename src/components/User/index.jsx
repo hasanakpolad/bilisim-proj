@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import "./style.css"
 
+var visib = "hidden";
 function visible() {
-    return false
+    if (visib === "hidden") return ""
+    return "hidden"
 }
 function signup() {
-
 }
 function User() {
     const [name, setName] = useState('')
@@ -20,13 +21,13 @@ function User() {
                     <div className="col-md-5 mx-auto">
                         <div className="card card-body">
                             <div className='cardNav'>
-                                <button className='btn btn-primary'>Giriş Yap</button>
-                                <button className='btn btn-primary' onChange={signup()}>Kayıt Ol</button>
+                                <button className='btn btn-primary' onClick={visible}>Giriş Yap</button>
+                                <button className='btn btn-primary' onClick={signup}>Kayıt Ol</button>
                             </div>
-                            <form hidden={visible()} id="signupForm" action="/signup" method="post" data-parsley-validate="" data-parsley-errors-messages-disabled="true" noValidate="" _lpchecked="1">
+                            <form hidden={visible} id="signupForm" action="/signup" method="post" data-parsley-validate="" data-parsley-errors-messages-disabled="true" noValidate="" _lpchecked="1">
                                 <div className="form-group required">
                                     <label htmlFor="username">Username</label>
-                                    <input type="text" value={name} onChange={(e)=> setName(e.target.value)} className="form-control text-lowercase" id="name" required="" name="username" />
+                                    <input type="text" value={name} onChange={(e) => setName(e.target.value)} className="form-control text-lowercase" id="name" required="" name="username" />
                                 </div>
                                 <div className="form-group required">
                                     <label htmlFor="username">Email</label>
@@ -44,10 +45,10 @@ function User() {
                                     <button className="btn btn-primary" type="submit" onClick={signup()}>Sign In</button>
                                 </div>
                             </form>
-                            <form hidden={visible()} id="loginForm" action="/login" method="post" data-parsley-validate="" data-parsley-errors-messages-disabled="true" noValidate="" _lpchecked="1">
+                            <form hidden={visible} id="loginForm" action="/login" method="post" data-parsley-validate="" data-parsley-errors-messages-disabled="true" noValidate="" _lpchecked="1">
                                 <div className="form-group required">
                                     <label htmlFor="username">Username / Email</label>
-                                    <input type="text" value={loginName} onChange={(e)=> setLoginName(e.target.value)} className="form-control text-lowercase" id="username" required="" name="username" />
+                                    <input type="text" value={loginName} onChange={(e) => setLoginName(e.target.value)} className="form-control text-lowercase" id="username" required="" name="username" />
                                 </div>
                                 <div className="form-group required">
                                     <label className="d-flex flex-row align-items-center" htmlFor="password">Password

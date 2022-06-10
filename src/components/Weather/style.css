@@ -43,16 +43,16 @@ button:hover {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 1px solid rgb(8, 8, 8);
     padding: 20px;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    background-color: rgb(158, 166, 167);
+    box-shadow: 10px 10px 5px #2d5c64;
+    background-color: #2d5c64;
 }
 
 .weathhead{
     padding: 8px;
     font-weight: 800;
-    box-shadow: inset 1px 1px 15px rgb(90, 88, 88);
+    box-shadow: inset 10px 10px 15px #2d5c64;
     font-size: 35px;
-    background-color: darkgrey;
+    background-color: #2d5c64;
     text-align: center;
 }
 .mainweather{
