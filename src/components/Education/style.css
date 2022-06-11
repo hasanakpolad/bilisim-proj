@@ -5,6 +5,9 @@
     justify-content: center;
     display: flex;
 	height: 540px;
+     background-image: url(images/kayak.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .row{
     align-content: center;
@@ -17,7 +20,8 @@
 }
 
 .pogoSlider-slide{
-    /* background-image: url(); */
+    /* background-image: url(images/kayak.jpg);
+    background-repeat: no-repeat; */
 }
 
 .pogoSlider-nav-btn {
@@ -38,8 +42,21 @@
 
 .img-responsive {
 	max-width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.sizeBoard{
+    width: 300rem;
 }
 
+.sizePaten {
+    width: 22rem;
+    height: 12rem;
+}
+
+.sizeCont{
+    width: 30rem;
+}
 .slide_text h3 {
     font-size: 55px;
     font-weight: 600;

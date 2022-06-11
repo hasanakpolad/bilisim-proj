@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import image from "./images/kayak.jpg";
 
 function Education() {
   return (
@@ -37,13 +38,13 @@ function Education() {
             <div className="col-md-12">
               <div className="tab_menu">
                 <ul>
-                  <li><a href="#"><span className="icon"><img src="images/i1.png" alt="#" /></span><span>University Life</span></a></li>
-                  <li><a href="#"><span className="icon"><img src="images/i2.png" alt="#" /></span><span>Graduation</span></a></li>
-                  <li><a href="#"><span className="icon"><img src="images/i3.png" alt="#" /></span><span>Athletics</span></a></li>
-                  <li><a href="#"><span className="icon"><img src="images/i4.png" alt="#" /></span><span>Social</span></a></li>
-                  <li><a href="#"><span className="icon"><img src="images/i5.png" alt="#" /></span><span>Location</span></a></li>
-                  <li><a href="#"><span className="icon"><img src="images/i6.png" alt="#" /></span><span>Call us</span></a></li>
-                  <li><a href="#"><span className="icon"><img src="images/i7.png" alt="#" /></span><span>Email</span></a></li>
+                  <li><a href="#"><span className="icon"><img src={require('./images/i1.png')} alt="#" /></span><span>University Life</span></a></li>
+                  <li><a href="#"><span className="icon"><img src={require('./images/i2.png')} alt="#" /></span><span>Graduation</span></a></li>
+                  <li><a href="#"><span className="icon"><img src={require('./images/i3.png')} alt="#" /></span><span>Athletics</span></a></li>
+                  <li><a href="#"><span className="icon"><img src={require('./images/i4.png')} alt="#" /></span><span>Social</span></a></li>
+                  <li><a href="#"><span className="icon"><img src={require('./images/i5.png')} alt="#" /></span><span>Location</span></a></li>
+                  <li><a href="#"><span className="icon"><img src={require('./images/i6.png')} alt="#" /></span><span>Call us</span></a></li>
+                  <li><a href="#"><span className="icon"><img src={require('./images/i7.png')} alt="#" /></span><span>Email</span></a></li>
                 </ul>
               </div>
             </div>
@@ -69,7 +70,7 @@ function Education() {
             </div>
             <div className="col-md-6">
               <div className="full">
-                <img src="images/img2.png" alt="#" />
+                <img src={image} alt="#" />
               </div>
             </div>
           </div>
@@ -82,26 +83,26 @@ function Education() {
             <div className="col-md-12">
               <div className="full">
                 <div className="heading_main text_align_center">
-                  <h2><span>Popular </span>Courses</h2>
+                  <center><h2><span>Popular </span>Courses</h2></center>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="full blog_img_popular">
-                <img className="img-responsive" src="images/p1.png" alt="#" />
-                <h4>Financial Accounting</h4>
+                <img className="img-responsive sizeBoard" src={require('./images/board.jpg')} alt="#" />
+                <center><h4>Board</h4>  </center>
               </div>
             </div>
             <div className="col-md-4">
               <div className="full blog_img_popular">
-                <img className="img-responsive" src="images/p2.png" alt="#" />
-                <h4>Managerial Accounting</h4>
+                <img className="img-responsive" src={require('./images/ski.jpg')} alt="#" />
+                <center><h4>Ski</h4></center>
               </div>
             </div>
             <div className="col-md-4">
               <div className="full blog_img_popular">
-                <img className="img-responsive" src="images/p3.png" alt="#" />
-                <h4>Intermediate Accounting</h4>
+                <img className="img-responsive sizePaten" src={require('./images/paten.jpg')} alt="#" />
+                <center><h4>Paten</h4></center>
               </div>
             </div>
           </div>
@@ -127,7 +128,7 @@ function Education() {
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="full float-right_img">
-                <img src="images/img10.png" alt="#" />
+                <img className='sizeCont' src={require('./images/contact.jpg')} alt="#" />
               </div>
             </div>
             <div className="layout_padding col-lg-6 col-md-6 col-sm-12">
