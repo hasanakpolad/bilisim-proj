@@ -3,7 +3,7 @@ import "./style.css"
 
 function Ticket({ item }) {
     return (
-        <div><center><h1>Hazırlanıyoruz...</h1></center></div>
+        <div><center><h1>Hazırlanıyoruz....</h1></center></div>
     )
 }
 
