@@ -18,7 +18,7 @@ function Education() {
                         <h4>Free Educations</h4>
                         <br />
                         <div className="full-center">
-                          <a className="contact_bt" href="courses.html">Start a Course</a>
+                          <a className="contact_bt" href={"courses.html"}>Start a Course</a>
                         </div>
                       </div>
                     </div>
@@ -38,13 +38,13 @@ function Education() {
             <div className="col-md-12">
               <div className="tab_menu">
                 <ul>
-                  <li><a href="#"><span className="icon"><img src={require('./images/i1.png')} alt="#" /></span><span>University Life</span></a></li>
-                  <li><a href="#"><span className="icon"><img src={require('./images/i2.png')} alt="#" /></span><span>Graduation</span></a></li>
-                  <li><a href="#"><span className="icon"><img src={require('./images/i3.png')} alt="#" /></span><span>Athletics</span></a></li>
-                  <li><a href="#"><span className="icon"><img src={require('./images/i4.png')} alt="#" /></span><span>Social</span></a></li>
-                  <li><a href="#"><span className="icon"><img src={require('./images/i5.png')} alt="#" /></span><span>Location</span></a></li>
-                  <li><a href="#"><span className="icon"><img src={require('./images/i6.png')} alt="#" /></span><span>Call us</span></a></li>
-                  <li><a href="#"><span className="icon"><img src={require('./images/i7.png')} alt="#" /></span><span>Email</span></a></li>
+                  <li><a href={"#"}><span className="icon"><img src={require('./images/i1.png')} alt="#" /></span><span>University Life</span></a></li>
+                  <li><a href={"#"}><span className="icon"><img src={require('./images/i2.png')} alt="#" /></span><span>Graduation</span></a></li>
+                  <li><a href={"#"}><span className="icon"><img src={require('./images/i3.png')} alt="#" /></span><span>Athletics</span></a></li>
+                  <li><a href={"#"}><span className="icon"><img src={require('./images/i4.png')} alt="#" /></span><span>Social</span></a></li>
+                  <li><a href={"#"}><span className="icon"><img src={require('./images/i5.png')} alt="#" /></span><span>Location</span></a></li>
+                  <li><a href={"#"}><span className="icon"><img src={require('./images/i6.png')} alt="#" /></span><span>Call us</span></a></li>
+                  <li><a href={"#"}><span className="icon"><img src={require('./images/i7.png')} alt="#" /></span><span>Email</span></a></li>
                 </ul>
               </div>
             </div>

@@ -12,7 +12,7 @@ function Stopover({ item }) {
                             <h6>Away from monotonous life</h6>
                             <h2>Relax Your Mind</h2>
                             <p>If you are looking at blank cassettes on the web, you may be very confused at the<br/> difference in price. You may see some for as low as $.17 each.</p>
-                            <a href="#" class="btn theme_btn button_hover">Get Started</a>
+                            <a href={"#"} class="btn theme_btn button_hover">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function Stopover({ item }) {
                                                         <option value="3">Room 03</option>
                                                     </select>
                                                 </div>
-                                                <a class="book_now_btn button_hover" href="#">Book Now</a>
+                                                <a class="book_now_btn button_hover" href={"#"}>Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -97,9 +97,9 @@ function Stopover({ item }) {
                         <div className="accomodation_item text-center">
                             <div className="hotel_img">
                                 <img src={require('./images/room1.jpg')} alt="" />
-                                <a href="#" className="theme_btn button_hover">Book Now</a>
+                                <a href={"#"} className="theme_btn button_hover">Book Now</a>
                             </div>
-                            <a href="#"><h4 className="sec_h4">Double Deluxe Room</h4></a>
+                            <a href={"#"}><h4 className="sec_h4">Double Deluxe Room</h4></a>
                             <h5>$250<small>/night</small></h5>
                         </div>
                     </div>
@@ -107,9 +107,9 @@ function Stopover({ item }) {
                         <div className="accomodation_item text-center">
                             <div className="hotel_img">
                                 <img src={require('./images/room2.jpg')} alt="" />
-                                <a href="#" className="theme_btn button_hover">Book Now</a>
+                                <a href={"#"} className="theme_btn button_hover">Book Now</a>
                             </div>
-                            <a href="#"><h4 className="sec_h4">Single Deluxe Room</h4></a>
+                            <a href={"#"}><h4 className="sec_h4">Single Deluxe Room</h4></a>
                             <h5>$200<small>/night</small></h5>
                         </div>
                     </div>
@@ -117,9 +117,9 @@ function Stopover({ item }) {
                         <div className="accomodation_item text-center">
                             <div className="hotel_img">
                                 <img src={require('./images/room3.jpg')} alt="" />
-                                <a href="#" className="theme_btn button_hover">Book Now</a>
+                                <a href={"#"} className="theme_btn button_hover">Book Now</a>
                             </div>
-                            <a href="#"><h4 className="sec_h4">Honeymoon Suit</h4></a>
+                            <a href={"#"}><h4 className="sec_h4">Honeymoon Suit</h4></a>
                             <h5>$750<small>/night</small></h5>
                         </div>
                     </div>
@@ -127,9 +127,9 @@ function Stopover({ item }) {
                         <div className="accomodation_item text-center">
                             <div className="hotel_img">
                                 <img src={require('./images/room4.jpg')} alt="" />
-                                <a href="#" className="theme_btn button_hover">Book Now</a>
+                                <a href={"#"} className="theme_btn button_hover">Book Now</a>
                             </div>
-                            <a href="#"><h4 className="sec_h4">Economy Double</h4></a>
+                            <a href={"#"}><h4 className="sec_h4">Economy Double</h4></a>
                             <h5>$200<small>/night</small></h5>
                         </div>
                     </div>
@@ -199,13 +199,13 @@ function Stopover({ item }) {
                             <img className="rounded-circle" src={require('./images/user.jpg')} alt="" />
                             <div className="media-body">
                                 <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-                                <a href="#"><h4 className="sec_h4">Fanny Spencer</h4></a>
+                                <a href={"#"}><h4 className="sec_h4">Fanny Spencer</h4></a>
                                 <div className="star">
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star-half-o"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star-half-o"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -213,13 +213,13 @@ function Stopover({ item }) {
                             <img className="rounded-circle" src={require('./images/user.jpg')} alt="" />
                             <div className="media-body">
                                 <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-                                <a href="#"><h4 className="sec_h4">Fanny Spencer</h4></a>
+                                <a href={"#"}><h4 className="sec_h4">Fanny Spencer</h4></a>
                                 <div className="star">
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star-half-o"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star-half-o"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -227,13 +227,13 @@ function Stopover({ item }) {
                             <img className="rounded-circle" src={require('./images/user.jpg')} alt="" />
                             <div className="media-body">
                                 <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-                                <a href="#"><h4 className="sec_h4">Fanny Spencer</h4></a>
+                                <a href={"#"}><h4 className="sec_h4">Fanny Spencer</h4></a>
                                 <div className="star">
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star-half-o"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star-half-o"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -241,13 +241,13 @@ function Stopover({ item }) {
                             <img className="rounded-circle" src={require('./images/user.jpg')} alt="" />
                             <div className="media-body">
                                 <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
-                                <a href="#"><h4 className="sec_h4">Fanny Spencer</h4></a>
+                                <a href={"#"}><h4 className="sec_h4">Fanny Spencer</h4></a>
                                 <div className="star">
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star"></i></a>
-                                    <a href="#"><i className="fa fa-star-half-o"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star"></i></a>
+                                    <a href={"#"}><i className="fa fa-star-half-o"></i></a>
                                 </div>
                             </div>
                         </div>
