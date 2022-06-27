@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.70f840e6.css",
-    "main.js": "/static/js/main.c5ebc672.js",
-    "static/js/787.c7e5060b.chunk.js": "/static/js/787.c7e5060b.chunk.js",
-    "static/media/facilites_bg.jpg": "/static/media/facilites_bg.2cb1a1901b64c3a0e21c.jpg",
-    "static/media/ski.jpg": "/static/media/ski.74efabe754b738bfef13.jpg",
-    "static/media/kayak.jpg": "/static/media/kayak.8d614a89eb04cf40bafd.jpg",
-    "static/media/room3.jpg": "/static/media/room3.e6f9c4d122cda00b8652.jpg",
-    "static/media/room1.jpg": "/static/media/room1.51119451d2ee2cb8b72b.jpg",
-    "static/media/room2.jpg": "/static/media/room2.f28e39d55202f0e10d5a.jpg",
-    "static/media/room4.jpg": "/static/media/room4.50967f5345e97737c56a.jpg",
-    "static/media/arctic-snowhotel-glass.jpg": "/static/media/arctic-snowhotel-glass.bef0439c19fa0ea881f5.jpg",
-    "static/media/contact.jpg": "/static/media/contact.45599735a193ef8f5b03.jpg",
-    "static/media/i4.png": "/static/media/i4.3c907841096010b1d203.png",
-    "static/media/i1.png": "/static/media/i1.1d0a181aae6609c384b2.png",
-    "static/media/i2.png": "/static/media/i2.b87f7b57f4845447026f.png",
-    "index.html": "/index.html",
-    "main.70f840e6.css.map": "/static/css/main.70f840e6.css.map",
-    "main.c5ebc672.js.map": "/static/js/main.c5ebc672.js.map",
-    "787.c7e5060b.chunk.js.map": "/static/js/787.c7e5060b.chunk.js.map"
+    "main.css": "/bilisim-proj/static/css/main.179622a9.css",
+    "main.js": "/bilisim-proj/static/js/main.ed4972fb.js",
+    "static/js/787.c7e5060b.chunk.js": "/bilisim-proj/static/js/787.c7e5060b.chunk.js",
+    "static/media/facilites_bg.jpg": "/bilisim-proj/static/media/facilites_bg.2cb1a1901b64c3a0e21c.jpg",
+    "static/media/ski.jpg": "/bilisim-proj/static/media/ski.74efabe754b738bfef13.jpg",
+    "static/media/kayak.jpg": "/bilisim-proj/static/media/kayak.8d614a89eb04cf40bafd.jpg",
+    "static/media/room3.jpg": "/bilisim-proj/static/media/room3.e6f9c4d122cda00b8652.jpg",
+    "static/media/room1.jpg": "/bilisim-proj/static/media/room1.51119451d2ee2cb8b72b.jpg",
+    "static/media/room2.jpg": "/bilisim-proj/static/media/room2.f28e39d55202f0e10d5a.jpg",
+    "static/media/room4.jpg": "/bilisim-proj/static/media/room4.50967f5345e97737c56a.jpg",
+    "static/media/arctic-snowhotel-glass.jpg": "/bilisim-proj/static/media/arctic-snowhotel-glass.bef0439c19fa0ea881f5.jpg",
+    "static/media/contact.jpg": "/bilisim-proj/static/media/contact.45599735a193ef8f5b03.jpg",
+    "static/media/i4.png": "/bilisim-proj/static/media/i4.3c907841096010b1d203.png",
+    "static/media/i1.png": "/bilisim-proj/static/media/i1.1d0a181aae6609c384b2.png",
+    "static/media/i2.png": "/bilisim-proj/static/media/i2.b87f7b57f4845447026f.png",
+    "index.html": "/bilisim-proj/index.html",
+    "main.179622a9.css.map": "/bilisim-proj/static/css/main.179622a9.css.map",
+    "main.ed4972fb.js.map": "/bilisim-proj/static/js/main.ed4972fb.js.map",
+    "787.c7e5060b.chunk.js.map": "/bilisim-proj/static/js/787.c7e5060b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70f840e6.css",
-    "static/js/main.c5ebc672.js"
+    "static/css/main.179622a9.css",
+    "static/js/main.ed4972fb.js"
   ]
 }
