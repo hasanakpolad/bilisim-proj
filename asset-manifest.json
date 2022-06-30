@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/bilisim-proj/static/css/main.5e1d0ffe.css",
-    "main.js": "/bilisim-proj/static/js/main.774505f6.js",
+    "main.css": "/bilisim-proj/static/css/main.f79c8f67.css",
+    "main.js": "/bilisim-proj/static/js/main.397b845c.js",
     "static/js/787.c7e5060b.chunk.js": "/bilisim-proj/static/js/787.c7e5060b.chunk.js",
     "static/media/facilites_bg.jpg": "/bilisim-proj/static/media/facilites_bg.2cb1a1901b64c3a0e21c.jpg",
     "static/media/banner.jpg": "/bilisim-proj/static/media/banner.799282533c3456129bc9.jpg",
     "static/media/board.png": "/bilisim-proj/static/media/board.c2bf4c795933bb49c4bd.png",
+    "static/media/mountainTour (2).png": "/bilisim-proj/static/media/mountainTour (2).22066baaefa3b44c4bfa.png",
     "static/media/Mountain.jpg": "/bilisim-proj/static/media/Mountain.22f8343600f404675f09.jpg",
     "static/media/ski.jpg": "/bilisim-proj/static/media/ski.74efabe754b738bfef13.jpg",
     "static/media/kayak.jpg": "/bilisim-proj/static/media/kayak.8d614a89eb04cf40bafd.jpg",
@@ -14,6 +15,7 @@
     "static/media/room2.jpg": "/bilisim-proj/static/media/room2.f28e39d55202f0e10d5a.jpg",
     "static/media/room4.jpg": "/bilisim-proj/static/media/room4.50967f5345e97737c56a.jpg",
     "static/media/arctic-snowhotel-glass.jpg": "/bilisim-proj/static/media/arctic-snowhotel-glass.bef0439c19fa0ea881f5.jpg",
+    "static/media/chairlift.jpg": "/bilisim-proj/static/media/chairlift.c2cf84e704cff9957782.jpg",
     "static/media/contact.jpg": "/bilisim-proj/static/media/contact.45599735a193ef8f5b03.jpg",
     "static/media/i4.png": "/bilisim-proj/static/media/i4.3c907841096010b1d203.png",
     "static/media/travel-icon4.png": "/bilisim-proj/static/media/travel-icon4.93bc7e8cc7532f6ce700.png",
@@ -23,12 +25,12 @@
     "static/media/i1.png": "/bilisim-proj/static/media/i1.1d0a181aae6609c384b2.png",
     "static/media/i2.png": "/bilisim-proj/static/media/i2.b87f7b57f4845447026f.png",
     "index.html": "/bilisim-proj/index.html",
-    "main.5e1d0ffe.css.map": "/bilisim-proj/static/css/main.5e1d0ffe.css.map",
-    "main.774505f6.js.map": "/bilisim-proj/static/js/main.774505f6.js.map",
+    "main.f79c8f67.css.map": "/bilisim-proj/static/css/main.f79c8f67.css.map",
+    "main.397b845c.js.map": "/bilisim-proj/static/js/main.397b845c.js.map",
     "787.c7e5060b.chunk.js.map": "/bilisim-proj/static/js/787.c7e5060b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e1d0ffe.css",
-    "static/js/main.774505f6.js"
+    "static/css/main.f79c8f67.css",
+    "static/js/main.397b845c.js"
   ]
 }
