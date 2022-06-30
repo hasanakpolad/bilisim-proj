@@ -1,50 +1,36 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./style.css"
 import axios from "axios"
 
 
 function User() {
+
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [pass, setPass] = useState('')
     const [passAgn, setPassAgn] = useState('')
     const [loginName, setLoginName] = useState('')
-    const [list, setList] = useState([])
+    const [users, setUsers] = useState([])
     var visib = "hidden";
     function visible() {
         if (visib === "hidden") return ""
         return "hidden"
     }
-    const signUp = async (e) => {
-        e.preventDefault();
-        const url = `https://localhost:44371/api/User/Add`;
-        const req = axios.post(url, {
-            Name: name,
-            Email: email,
-            Password: pass
-
-        }).then(function (response) {
-            console.log(response);
-        }).catch(function (error) {
-            console.log(error);
-        });
-        const res = await req;
-        console.log(res);
-    }
-    const GetUser = async (e) => {
-        e.preventDefault();
-        axios
-            .get("https://localhost:44371/api/User/GetAll")
-            .then(res => setList(res.data))
-            .catch(e => console.log(e))
-    }
-
-    function logIn() {
-        var res = GetUser;
-        console.log(res.Name);
-    }
-
-
+   useEffect(()=>{
+       axios.get("https://localhost:44371/api/User/GetAll")
+       .then(res => setUsers(res.data))
+       .catch((e) => console.log(e))
+       .finally(()=>console.log("ok"));
+   },[]);
+   function logIn(){
+console.log("ok");
+   }
+   function signUp() {
+    users.map((user)=>{
+        console.log(user.name)
+    })
+    console.log("ok");
+   }
     return (
         <div>
             <div className="container">

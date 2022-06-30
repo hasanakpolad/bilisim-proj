@@ -58,10 +58,8 @@ function Stopover({ item }) {
                                                 </div>
                                                 <div class="input-group">
                                                     <select class="wide">
-                                                        <option data-display="Child">Child</option>
-                                                        <option value="1">Child</option>
+                                                        <option data-display="Child" value="1">Child</option>
                                                         <option value="2">Baby</option>
-                                                        <option value="3">Child</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -71,9 +69,10 @@ function Stopover({ item }) {
                                                 <div class="input-group">
                                                     <select class="wide">
                                                         <option data-display="Child">Number of Rooms</option>
-                                                        <option value="1">Room 01</option>
-                                                        <option value="2">Room 02</option>
-                                                        <option value="3">Room 03</option>
+                                                        <option value="1">Room Type 01</option>
+                                                        <option value="2">Room Type 02</option>
+                                                        <option value="3">Room Type 03</option>
+                                                        <option value="3">Room Type 04</option>
                                                     </select>
                                                 </div>
                                                 <a class="book_now_btn button_hover" href={"#"}>Book Now</a>
