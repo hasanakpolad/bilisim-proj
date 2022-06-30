@@ -49,7 +49,7 @@ function Ticket({ item }) {
                                             </div>
                                         </div>
                                         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
-                                            <a href="#">search</a>
+                                            <a href="#">GetTicket</a>
                                         </div>
                                     </div>
                                 </form>
@@ -93,7 +93,7 @@ function Ticket({ item }) {
                     <div className="row">
                         <div className="col-md-12 ">
                             <div className="titlepage">
-                                <h2>Select Offers For Traveling</h2>
+                                <h2>Select Offers For Winter Holiday Options</h2>
                                 <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</span>
                             </div>
                         </div>
@@ -178,22 +178,17 @@ function Ticket({ item }) {
                             <div className="col-md-12">
                                 <div className="owl-carousel owl-theme">
                                     <div className="item">
-                                        <img className="img-responsive" src="images/1.jpg" alt="#" />
+                                        <img className="img-responsive" src={require("./images/winterTour.jpg")} alt="#" />
                                         <h3>Winter Tour</h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in soe suffk even slightly believable. If y be sure there</p>
                                     </div>
                                     <div className="item">
-                                        <img className="img-responsive" src="images/2.jpg" alt="#" />
+                                        <img className="img-responsive-icon" src={require("./images/mountainTour (2).png")} alt="#" />
                                         <h3>Mountain</h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in soe suffk even slightly believable. If y be sure there</p>
                                     </div>
                                     <div className="item">
-                                        <img className="img-responsive" src="images/3.jpg" alt="#" />
-                                        <h3>London</h3>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in soe suffk even slightly believable. If y be sure there</p>
-                                    </div>
-                                    <div className="item">
-                                        <img className="img-responsive" src="images/2.jpg" alt="#" />
+                                        <img className="img-responsive-icon" src={require("./images/chairlift.jpg")} alt="#" />
                                         <h3>Chair Lift Tour</h3>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in soe suffk even slightly believable. If y be sure there</p>
                                     </div>
