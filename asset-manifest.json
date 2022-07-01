@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bilisim-proj/static/css/main.f79c8f67.css",
-    "main.js": "/bilisim-proj/static/js/main.19b3a58f.js",
+    "main.css": "/bilisim-proj/static/css/main.646bab98.css",
+    "main.js": "/bilisim-proj/static/js/main.0a338d56.js",
     "static/js/787.c7e5060b.chunk.js": "/bilisim-proj/static/js/787.c7e5060b.chunk.js",
     "static/media/facilites_bg.jpg": "/bilisim-proj/static/media/facilites_bg.2cb1a1901b64c3a0e21c.jpg",
     "static/media/banner.jpg": "/bilisim-proj/static/media/banner.799282533c3456129bc9.jpg",
@@ -25,12 +25,12 @@
     "static/media/i1.png": "/bilisim-proj/static/media/i1.1d0a181aae6609c384b2.png",
     "static/media/i2.png": "/bilisim-proj/static/media/i2.b87f7b57f4845447026f.png",
     "index.html": "/bilisim-proj/index.html",
-    "main.f79c8f67.css.map": "/bilisim-proj/static/css/main.f79c8f67.css.map",
-    "main.19b3a58f.js.map": "/bilisim-proj/static/js/main.19b3a58f.js.map",
+    "main.646bab98.css.map": "/bilisim-proj/static/css/main.646bab98.css.map",
+    "main.0a338d56.js.map": "/bilisim-proj/static/js/main.0a338d56.js.map",
     "787.c7e5060b.chunk.js.map": "/bilisim-proj/static/js/787.c7e5060b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f79c8f67.css",
-    "static/js/main.19b3a58f.js"
+    "static/css/main.646bab98.css",
+    "static/js/main.0a338d56.js"
   ]
 }
