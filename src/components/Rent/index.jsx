@@ -217,21 +217,7 @@ function Rent() {
                     <p className="tm-recommended-price-link">Continue Reading</p>
                   </a>
                 </div>
-
-                <div className="tm-recommended-place">
-                  <img src="img/tm-img-04.jpg" alt="Image" className="img-fluid tm-recommended-img" />
-                  <div className="tm-recommended-description-box">
-                    <h3 className="tm-recommended-title">Lorem ipsum dolor sit</h3>
-                    <p className="tm-text-highlight">Vientiane, Laos</p>
-                    <p className="tm-text-gray">Sed egestas, odio nec bibendum mattis, quam odio hendrerit risus, eu varius eros lacus sit amet lectus. Donec blandit luctus dictum...</p>
-                  </div>
-                  <a href="#" className="tm-recommended-price-box">
-                    <p className="tm-recommended-price">$470</p>
-                    <p className="tm-recommended-price-link">Continue Reading</p>
-                  </a>
-                </div>
               </div>
-
               <a href="#" className="text-uppercase btn-primary tm-btn mx-auto tm-d-table">Show More Places</a>
             </div>
             {/* <!-- tab-pane --> */}
