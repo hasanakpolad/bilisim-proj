@@ -461,13 +461,13 @@ img{
   --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-@media print {
+/* @media print {
   *,
   *::before,
   *::after {
     text-shadow: none !important;
     box-shadow: none !important;
-  }
+  } */
   a,
   a:visited {
     text-decoration: underline;
@@ -517,7 +517,7 @@ img{
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
-}
+/* } */
 
 *,
 *::before,

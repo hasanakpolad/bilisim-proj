@@ -1,5 +1,4 @@
 import React from 'react'
-import Stopover from '../Stopover'
 import "./style.css"
 
 function Ticket({ item }) {
