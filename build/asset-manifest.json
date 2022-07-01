@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bilisim-proj/static/css/main.fa00b2ed.css",
-    "main.js": "/bilisim-proj/static/js/main.a0067dda.js",
+    "main.js": "/bilisim-proj/static/js/main.4f50e5e9.js",
     "static/js/787.c7e5060b.chunk.js": "/bilisim-proj/static/js/787.c7e5060b.chunk.js",
     "static/media/facilites_bg.jpg": "/bilisim-proj/static/media/facilites_bg.2cb1a1901b64c3a0e21c.jpg",
     "static/media/banner.jpg": "/bilisim-proj/static/media/banner.799282533c3456129bc9.jpg",
@@ -31,11 +31,11 @@
     "static/media/i2.png": "/bilisim-proj/static/media/i2.b87f7b57f4845447026f.png",
     "index.html": "/bilisim-proj/index.html",
     "main.fa00b2ed.css.map": "/bilisim-proj/static/css/main.fa00b2ed.css.map",
-    "main.a0067dda.js.map": "/bilisim-proj/static/js/main.a0067dda.js.map",
+    "main.4f50e5e9.js.map": "/bilisim-proj/static/js/main.4f50e5e9.js.map",
     "787.c7e5060b.chunk.js.map": "/bilisim-proj/static/js/787.c7e5060b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa00b2ed.css",
-    "static/js/main.a0067dda.js"
+    "static/js/main.4f50e5e9.js"
   ]
 }
