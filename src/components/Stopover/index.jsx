@@ -21,66 +21,44 @@ function Stopover({ item }) {
                     <div className="container">
                         <div className="hotel_booking_table">
                             <div className="col-md-3">
-                                <h2>Book<br /> Your Room</h2>
+                                <center> <h2>Book<br /> Your Room</h2></center>
                             </div>
-                            <div className="col-md-9">
-                                <div className="boking_table">
+                            <div className="row">
+                                <div className="col-md-9">
                                     <div className="row">
-                                        <div className="col-md-4">
-                                            <div className="book_tabel_item">
-                                                <div className="form-group">
-                                                    <div className='input-group date' id='datetimepicker11'>
-                                                        <input type='text' className="form-control" placeholder="Arrival Date" />
-                                                        <span className="input-group-addon">
-                                                            <i className="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div className="form-group">
-                                                    <div className='input-group date' id='datetimepicker1'>
-                                                        <input type='text' className="form-control" placeholder="Departure Date" />
-                                                        <span className="input-group-addon">
-                                                            <i className="fa fa-calendar" aria-hidden="true"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label >Keywords</label>
+                                            <input className="form-control" placeholder="" type="text" name="" />
                                         </div>
-                                        <div className="col-md-4">
-                                            <div className="book_tabel_item">
-                                                <div className="input-group">
-                                                    <select className="wide">
-                                                        <option data-display="Adult">Adult</option>
-                                                        <option value="1">Old</option>
-                                                        <option value="2">Younger</option>
-                                                        <option value="3">Potato</option>
-                                                    </select>
-                                                </div>
-                                                <div className="input-group">
-                                                    <select className="wide">
-                                                        <option data-display="Child" value="1">Child</option>
-                                                        <option value="2">Baby</option>
-                                                    </select>
-                                                </div>
-                                            </div>
+                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label >Category</label>
+                                            <select className="form-control" name="Any">
+                                                <option>Any</option>
+                                                <option>Option 1</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                            </select>
                                         </div>
-                                        <div className="col-md-4">
-                                            <div className="book_tabel_item">
-                                                <div className="input-group">
-                                                    <select className="wide">
-                                                        <option data-display="Child">Number of Rooms</option>
-                                                        <option value="1">Room Type 01</option>
-                                                        <option value="2">Room Type 02</option>
-                                                        <option value="3">Room Type 03</option>
-                                                        <option value="3">Room Type 04</option>
-                                                    </select>
-                                                </div>
-                                                <a className="book_now_btn button_hover" href={"#"}>Book Now</a>
-                                            </div>
+                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label >Min Price</label>
+                                            <input className="form-control" placeholder="00.0" type="text" name="00.0" />
+                                        </div>
+                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label >Duration</label>
+                                            <input className="form-control" placeholder="Any" type="text" name="Any" />
+                                        </div>
+                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label >Date</label>
+                                            <input className="form-control" placeholder="Any" type="date" name="Any" />
+                                        </div>
+                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                            <label >Max Price</label>
+                                            <input className="form-control" placeholder="00.0" type="text" name="00.0" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <a className="book_now_btn button_hover" href={"#"}>Book Now</a>
                         </div>
                     </div>
                 </div>
